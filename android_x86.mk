@@ -15,7 +15,7 @@
 #
 
 # includes the base of Android-x86 platform
-$(call inherit-product,device/generic/common/x86.mk)
+$(call inherit-product,device/generic/pc_common/x86.mk)
 
 # Overrides
 PRODUCT_NAME := android_x86
