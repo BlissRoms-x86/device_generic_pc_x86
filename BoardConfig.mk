@@ -18,6 +18,8 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_FLASH_BLOCK_SIZE := 512
 TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
 
+PC_BUILD := true
+
 BOARD_SEPOLICY_DIRS += build/target/board/generic/sepolicy
 BOARD_SEPOLICY_DIRS += build/target/board/generic_x86/sepolicy
 
