@@ -22,5 +22,5 @@ PRODUCT_NAME := android_pc_x86
 PRODUCT_BRAND := Android-x86
 PRODUCT_DEVICE := pc_x86
 PRODUCT_MODEL := Generic Android-x86
-
+TARGET_KERNEL_CONFIG := android-x86_defconfig
 PC_BUILD := true
